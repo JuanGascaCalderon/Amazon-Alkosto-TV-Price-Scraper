@@ -46,4 +46,17 @@ This project performs **web scraping** on **Amazon** and **Alkosto** websites, e
 ```bash
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
-
+```
+### 2. Install the dependencies:
+```bash
+pip install -r requirements.txt
+```
+### 3. Run the Script:
+```bash
+python project.ipynb
+```
+### 4. Configure the exchange rate API:
+ - You'll need an API key for the ExchangeRate-API or a similar service. Update the API URL in the code, replacing YOUR_API_KEY with your personal key.
+```bash
+api_url = "https://v6.exchangerate-api.com/v6/YOUR_API_KEY/latest/USD"
+```
